@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+nav {
+    background-color: $z-menu;
+    width: 120px;
+    overflow: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+   
+      .item-menu{
+        height: 64px;
+        width: 66px;
+        padding: 12px 16px 11px;
+        border-radius: 10px;
+        margin: 16px;
+        &:hover{
+          background: #243639;
+        }
+      }
+      .selected-item{
+        background: #243639;
+      }
+     
+    }
+    .logo{
+        margin-top: 30px;
+    }
+   
+    .show{
+      display: flex !important;
+    }
+
+    .hide {
+      display: none !important;
+    }
+    
+    .nav-fix{
+      position: fixed;
+    }
+    
+   
+    

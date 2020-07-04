@@ -1,0 +1,82 @@
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    .profile, .inventory{
+        background: #121f2d;
+        width: 500px;
+        height: 400px;
+        border-radius: 4px;
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            font-size: 25px;
+        }
+        .info{
+            text-align: center;
+            margin-top: 12px;
+        }
+        .avatar{
+            background: #1D2E3B;
+            padding: 30px 30px;
+            border-radius: 60px;
+            width: 120px;
+            height: 120px;
+            margin-top: 13px;
+        }
+        .status, .infected{
+            background: #3D9210;
+            font-size: 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            padding: 4px;
+            margin-top: 3px;
+        }
+        .infected{
+            background: #9c0505
+        }
+
+        .dropdown{
+            background: #121f2d;
+            border-radius: 4px;
+            padding: 5px 26px;
+            margin-top: 1px;
+            color: #fff;
+        }
+    }
+
+    .inventory{
+        padding: 5px;
+        h1{
+            text-align: center;
+            background: #1D2E3B;
+            padding: 12px;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+        .items{
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            column-gap: 5px;
+            
+            padding-top: 5px;
+            li{
+                height: 166px;
+                background: #1D2E3B;
+                margin-bottom: 5px;
+                border-radius: 4px;
+                padding: 36px 74px;
+            }
+        }
+    }
+}
