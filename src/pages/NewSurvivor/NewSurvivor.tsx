@@ -147,7 +147,7 @@ export const NewSurvivor = () => {
   }
 
   useEffect(() => {
-   
+
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(position => {
         const { latitude, longitude } = position.coords;

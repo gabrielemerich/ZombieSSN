@@ -15,16 +15,16 @@ type MenuVisible = {
 }
 export const Menu = ({ visible }: MenuVisible) => {
     const [showMenu, setShowMenu] = useState<boolean>(visible);
-    useEffect(()=>{
+    useEffect(() => {
         setShowMenu(visible);
-    },[visible])
-    
+    }, [visible])
+
     let location = useLocation();
     const isActive = (path: string) => {
         return path === location.pathname;
     };
 
-    
+
     return (
         <div>
             <nav className={showMenu ? 'show animate__animated animate__fadeInLeft' : 'hide'}>
@@ -36,7 +36,7 @@ export const Menu = ({ visible }: MenuVisible) => {
                     exact
                 >
 
-                <img width="40" height="40" src={isActive('/') ? NewSurvivorActive : NewSurvivor} alt="NewSurvivor" />
+                    <img width="40" height="40" src={isActive('/') ? NewSurvivorActive : NewSurvivor} alt="NewSurvivor" />
 
                 </NavLink>
                 <NavLink

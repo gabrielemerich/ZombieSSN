@@ -18,7 +18,7 @@ export const ListSurvivors = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const history = useHistory();
     async function reportInfected(infected: People) {
-        
+
         if (peopleStorage && peopleStorage !== '0') {
             setLoading(true)
 

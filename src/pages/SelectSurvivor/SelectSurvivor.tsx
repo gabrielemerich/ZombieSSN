@@ -25,7 +25,7 @@ export const SelectSurvivor = () => {
         let filter = peoplesList.filter(element => {
             return element.location === location;
         })[0]
-       
+
         setPeople(filter);
     }
     useEffect(() => {
@@ -36,12 +36,12 @@ export const SelectSurvivor = () => {
         })
     }, [])
 
-    useEffect(()=>{
-        if(peopleStorage){
+    useEffect(() => {
+        if (peopleStorage) {
             loadPeople(peopleStorage)
         }
         // eslint-disable-next-line
-    },[peoplesList])
+    }, [peoplesList])
 
     return (
         <section className="container">
