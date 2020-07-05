@@ -1,6 +1,6 @@
 <h1>ZombieSSN</h1>
 <h2>Aplica&ccedil;&atilde;o</h2>
-<p>A Aplica&ccedil;&atilde;o desenvolvida se constitui basicamente em 4 funcionalidades que est&atilde;o listadas abaixo:</p>
+<p>Se constitui basicamente em 5 funcionalidades descritas abaixo:</p>
 <ul>
 <li>Cadastro de sobreviventes;</li>
 <li>Selecionar sobrevivente cadastrado;</li>
@@ -17,5 +17,5 @@
 <p><img src="https://imgur.com/eShrTBn.png" /></p>
 <p><img src="https://imgur.com/72dCC9M.png" /></p>
 <h2>Outras Informa&ccedil;&otilde;es</h2>
-<p><a target="_blank" href="https://www.figma.com/file/DMIZ5D46BKNRUwKmdHuzIW/ZSSN?node-id=0%3A1">Clique Aqui</a> para visualizar a interface desenvolvida.</p>
-<p>A aplica&ccedil;&atilde;o est&aacute; dispon&iacute;vel para uso em <a target="_blank" href="https://zombiessn.netlify.app/">https://zombiessn.netlify.app/</a></p>
+<p><a href="https://www.figma.com/file/DMIZ5D46BKNRUwKmdHuzIW/ZSSN?node-id=0%3A1">Clique Aqui</a> para visualizar a interface desenvolvida.</p>
+<p>A aplica&ccedil;&atilde;o est&aacute; dispon&iacute;vel para uso em <a href="https://zombiessn.netlify.app/">https://zombiessn.netlify.app/</a></p>
